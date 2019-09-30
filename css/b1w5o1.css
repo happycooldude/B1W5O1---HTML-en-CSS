@@ -1,0 +1,16 @@
+body{
+    margin-left: 400px;
+    margin-right: 300px;
+    text-align: left;
+    font-family: arial;
+}
+
+.endbox{
+    padding: 15px;
+    border: 10px;
+    background-color: rgba(144, 238, 144);
+}
+
+.line{
+    border-bottom: 1px solid black;  
+}
