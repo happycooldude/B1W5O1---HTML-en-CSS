@@ -1,16 +1,58 @@
-body{
-    margin-left: 400px;
+.Hoofdgerecht{
+    margin-left: 300px;
     margin-right: 300px;
-    text-align: left;
     font-family: arial;
 }
 
-.endbox{
-    padding: 15px;
-    border: 10px;
-    background-color: rgba(144, 238, 144);
+p{
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h1{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.eersteparagraaf{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.center{
+    text-align: center;
 }
 
 .line{
     border-bottom: 1px solid black;  
 }
+
+.endbox{
+    padding: 15px;
+    background-color:#def6ed;
+    border-radius: 4px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: black;
+    position: top; /* zet de navigatiebar bovenaan de pagina */
+    top: 0; /* zet de navigatiebar aan de bovenkant van de pagina */
+    width: 100% /* de volledige lengte van de pagina */
+  }
+
+  /* links in de navigatiebar */
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* veranderd de achtergrond als je er met je muis overgaat */
+  .navbar a:hover{
+    background: pink;
+    color: black;
+  }
