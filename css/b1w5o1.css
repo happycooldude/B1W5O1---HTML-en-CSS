@@ -1,7 +1,7 @@
-.Hoofdgerecht{
+body{
     margin-left: 300px;
     margin-right: 300px;
-    font-family: arial;
+    font-family: 'Roboto', sans-serif;
 }
 
 p{
@@ -14,20 +14,49 @@ h1{
     line-height: 36px;
 }
 
+h2{
+    margin-top: 40px;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+ul{
+    margin-top: 40px;
+    line-height: 10px;
+}
+
+li{
+    margin: 10px 0;
+}
+
+ol{
+    scroll-margin-top: 40px;
+    line-height: 20px;
+}
+
+img{
+    margin-top: 40px;
+}
+
 .eersteparagraaf{
+    margin-top: 40px;
     font-size: 24px;
     line-height: 32px;
 }
 
 .center{
-    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0 auto;
 }
 
 .line{
+    margin-top: 40px;
     border-bottom: 1px solid black;  
 }
 
 .endbox{
+    margin-top: 40px;
     padding: 15px;
     background-color:#def6ed;
     border-radius: 4px;
